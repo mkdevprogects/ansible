@@ -1,0 +1,3 @@
+---
+- name: copy file
+  copy: src=./test_deploy dest=./test_deploy
