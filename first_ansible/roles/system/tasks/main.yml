@@ -1,0 +1,3 @@
+---
+- name: copy file
+  copy: src=test_deploy dest=/home/vagrant/test_deploy
