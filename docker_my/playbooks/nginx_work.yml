@@ -1,0 +1,7 @@
+---
+- hosts: production
+  sudo: true
+  tasks:
+
+  - include: tasks/pkg_nginx_setup.yml
+  - include: tasks/pkg_nginx_remove.yml

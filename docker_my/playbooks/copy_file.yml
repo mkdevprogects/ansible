@@ -1,0 +1,15 @@
+---
+- hosts: production
+  sudo: true
+#  vars_files:
+#   - ../vars/files.yml
+  tasks:
+
+#  - include: ../vars/files.yml
+
+#  - name: Include proper vars file
+#    vars_files:
+#    - ../vars/files.yml
+
+  - name: copy file
+    copy: src="{{ path_src }}{{ file_name }}" dest="{{ path_dest }}{{ file_name }}"

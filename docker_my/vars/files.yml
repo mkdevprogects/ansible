@@ -1,0 +1,4 @@
+---
+file_name: test_deploy
+path_src: ../
+path_dest: /home/vagrant/

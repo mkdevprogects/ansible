@@ -1,0 +1,9 @@
+---
+- hosts: production
+  sudo: true
+  tasks:
+
+  - include: tasks/copy_file.yml
+
+  - name: remove file
+    file: path=/home/vagrant/test_deploy state=absent

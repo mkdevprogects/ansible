@@ -1,0 +1,4 @@
+---
+- name: Copy file
+  sudo: true
+  copy: src=../test_deploy dest=/home/vagrant/test_deploy
