@@ -1,0 +1,5 @@
+---
+#Install NGINX package
+- name: install nginx package
+  sudo: true
+  apt: name=nginx update_cache=yes

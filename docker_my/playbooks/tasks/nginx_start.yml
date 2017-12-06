@@ -1,0 +1,4 @@
+---
+- name: Starting nginx service
+  sudo: true
+  srvice: name=nginx state=started

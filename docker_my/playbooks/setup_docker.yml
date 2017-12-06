@@ -1,0 +1,5 @@
+---
+- hosts: production
+  sudo: true
+  tasks:
+  - name: install docker package

@@ -1,0 +1,8 @@
+---
+- hosts: production
+  sudo: true
+  tasks:
+
+#  - include: tasks/os_update.yml
+  - include: tasks/pkg_nginx_setup.yml
+#  - include: tasks/nginx_start.yml

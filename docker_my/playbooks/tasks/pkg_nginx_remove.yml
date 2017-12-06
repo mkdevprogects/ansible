@@ -1,0 +1,9 @@
+---
+#Remove NGINX package
+ - name: Stopping nginx service
+   sudo: true
+   service: name=nginx state=stopped
+
+ - name: Remove nginx package
+   sudo: true
+   apt: name=nginx state=removed
